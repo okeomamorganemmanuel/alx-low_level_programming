@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * File: 5-print_numbers.c
  * Auth: Brennan D Baraban
@@ -19,5 +20,19 @@ int main(void)
 
 	printf("\n");
 
+=======
+#include <stdio.h>
+/**
+ * main - entry point
+ * return: always return 0 (success)
+ */
+int main(void)
+{
+	int x = 0;
+
+	for (; x < 10 ; x++)
+		printf("%d", x);
+	putchar('\n');
+>>>>>>> 133c687b834cdd16134293eb204498cbf4245428
 	return (0);
 }
