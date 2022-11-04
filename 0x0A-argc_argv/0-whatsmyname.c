@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 * main - this a function to prints its name
@@ -8,5 +8,6 @@
 */
 int main(int argc, *argv[])
 {
-	printf("%s\n", *argv);
+	_putchar(*argv);
+	return(0);
 }
