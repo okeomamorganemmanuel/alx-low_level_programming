@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stddef.h>
 
 /**
  * _strchr - This function is a character string
